@@ -1,0 +1,129 @@
+body{
+width:1800px;
+font-size: 13px;
+}
+.container{
+width: 95%;
+font-family: monospace;
+   height: 15vh;
+}
+
+.container1{
+    margin-top: 10px;
+width: 105.2%;
+   font-family: sans-serif;
+   height: 100vh;
+}
+.tab{
+    margin-top: 2px;
+    margin-left: 2%;
+    width: 96%;
+    border-collapse: collapse;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tab td{
+    margin: 20px;
+    height: 30px;
+}
+
+.optim{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 115, 0, 0.815);
+    color: white;
+    border-style: none;
+    overflow-y: auto;
+}
+.title{
+    height: 20px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.89);
+    background-color: rgb(162, 0, 255);
+    font-size: 14px;
+    font-family: monospace;
+}
+.insertion{
+    border-top-style: solid;
+    border-top-width: 10px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .3) ;
+    margin-left: 1%;
+    border-color: rgb(0, 0, 0);
+}
+.OPT{
+    float: left;
+    width: 13%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .3) ;
+    margin-left: 1%;
+    height: 80vh;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+border-color: rgb(0, 0, 0);
+overflow-y: auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.OPT p{
+    display:block;
+    margin-top: 15px;
+}
+.OPT input{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.list{
+    float: left;
+    width: 40%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .3) ;
+    margin-left: 1%;
+    height: 80vh;
+    overflow-y: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+border-color: rgb(0, 0, 0);
+}
+.choix{
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .3) ;
+    margin-left: 1%;
+    height: 50px;
+}
+input , select{
+    height: 23px;
+}
+.espace{
+    height: 10px;
+}
+form{
+    margin-left: 10px;
+}
+input[type="number"]{
+    margin: 0 10px;
+    padding: 0 10px;
+    width: 50px;
+}
+input[type="date"]{
+    margin: 0 10px;
+    padding: 0 10px;
+    width: 150px;
+}
+.btn{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    background-color: rgba(255, 115, 0, 0.815);
+    border-style: none;
+    color: white;
+}
+.titre{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(0, 0, 0, 0.993);
+    font-size: 14px;
+}
